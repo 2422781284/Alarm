@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+
+        android:gravity="center_vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:divider="@drawable/divide"
+        android:showDividers="middle">
+
+        <TextView
+
+            style="@style/text"
+            android:text="周期" />
+
+        <CheckBox
+            android:id="@+id/day_1"
+            android:text="1"
+            style="@style/check" />
+
+        <CheckBox
+            android:id="@+id/day_2"
+            android:text="2"
+            style="@style/check" />
+
+        <CheckBox
+            android:id="@+id/day_3"
+            android:text="3"
+            style="@style/check" />
+
+        <CheckBox
+            android:id="@+id/day_4"
+            android:text="4"
+            style="@style/check" />
+
+        <CheckBox
+            android:id="@+id/day_5"
+            android:text="5"
+            style="@style/check" />
+
+        <CheckBox
+            android:id="@+id/day_6"
+            android:text="6"
+            style="@style/check" />
+
+        <CheckBox
+            android:id="@+id/day_7"
+            android:text="7"
+            style="@style/check" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:id="@+id/ring"
+        style="@style/layout">
+
+        <TextView
+            style="@style/text"
+            android:text="铃声" />
+
+        <TextView
+            android:id="@+id/ring_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="55555555" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:id="@+id/volume"
+        style="@style/layout">
+
+        <TextView
+
+            style="@style/text"
+            android:text="音量" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置闹钟音量" />
+    </LinearLayout>
+</LinearLayout>
